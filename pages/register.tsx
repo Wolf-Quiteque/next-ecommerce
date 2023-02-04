@@ -12,7 +12,7 @@ const RegisterPage = () => (
         </div>
 
         <div className="form-block">
-          <h2 className="form-block__title">Create an account and discover the benefits</h2>
+          <h2 className="form-block__title">Crie uma conta e descubra as vantagens</h2>
           <p className="form-block__description">Lorem Ipsum is simply dummy text of the printing 
           and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
           
@@ -38,7 +38,7 @@ const RegisterPage = () => (
                 <label htmlFor="check-signed-in" className={`checkbox checkbox--sm`}>
                   <input name="signed-in" type="checkbox" id="check-signed-in" />
                   <span className="checkbox__check"></span>
-                    <p>I agree to the Google Terms of Service and Privacy Policy</p>
+                    <p>Eu concordo com os Termos de Serviço e a Política de Privacidade do Google</p>
                 </label>
               </div>
             </div>
@@ -47,7 +47,7 @@ const RegisterPage = () => (
 
             <p className="form__signup-link">
               <Link href="/login">
-                <a href="#">Are you already a member?</a>
+                <a href="#">Você já é um membro?</a>
               </Link>
             </p>
           </form>
