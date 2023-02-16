@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="site-footer__top">
           <div className="site-footer__description">
             <h6>
-              <Logo /> <span>E</span>-Shop
+              <Logo /> Gisetech
             </h6>
             <p>
               A House My Brand projeta roupas para jovens, idosos e todos os

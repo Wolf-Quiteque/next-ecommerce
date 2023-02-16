@@ -16,9 +16,9 @@ const IndexPage = () => {
             className="featured-item featured-item-large"
           >
             <div className="featured-item__content">
-              <h3>recém-chegados agora</h3>
+              <h3>cursos de qualidade</h3>
               <a href="#" className="btn btn--rounded">
-                Mostrar coleção
+                Ver Cursos
               </a>
             </div>
           </article>
@@ -28,9 +28,11 @@ const IndexPage = () => {
             className="featured-item featured-item-small-first"
           >
             <div className="featured-item__content">
-              <h3>Basic t-shirts $29,99</h3>
+              <h3>
+                Equipamentos <br /> de Rede
+              </h3>
               <a href="#" className="btn btn--rounded">
-                More details
+                Ver Mais
               </a>
             </div>
           </article>
@@ -40,9 +42,9 @@ const IndexPage = () => {
             className="featured-item featured-item-small"
           >
             <div className="featured-item__content">
-              <h3>Sale this summer</h3>
+              <h3>Computadores</h3>
               <a href="#" className="btn btn--rounded">
-                VIEW ALL
+                Ver Todas
               </a>
             </div>
           </article>
@@ -72,8 +74,9 @@ const IndexPage = () => {
               <div className="data-item__content">
                 <h4>Pagamentos facilitados</h4>
                 <p>
-                Todos os pagamentos são processados ​​instantaneamente através de um pagamento seguro
-                  protocolo.                </p>
+                  Todos os pagamentos são processados ​​instantaneamente através
+                  de um pagamento seguro protocolo.{" "}
+                </p>
               </div>
             </li>
 
@@ -82,8 +85,8 @@ const IndexPage = () => {
               <div className="data-item__content">
                 <h4>Garantia de devolução de dinheiro</h4>
                 <p>
-                Se um item chegou danificado ou você mudou de ideia, você
-                  pode enviá-lo de volta para um reembolso total.
+                  Se um item chegou danificado ou você mudou de ideia, você pode
+                  enviá-lo de volta para um reembolso total.
                 </p>
               </div>
             </li>
@@ -93,8 +96,8 @@ const IndexPage = () => {
               <div className="data-item__content">
                 <h4>Melhor qualidade</h4>
                 <p>
-                Projetado para durar, cada um de nossos produtos foi elaborado com
-                  os melhores materiais.
+                  Projetado para durar, cada um de nossos produtos foi elaborado
+                  com os melhores materiais.
                 </p>
               </div>
             </li>
