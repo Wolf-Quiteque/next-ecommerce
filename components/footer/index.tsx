@@ -10,8 +10,9 @@ const Footer = () => {
               <Logo /> Gisetech
             </h6>
             <p>
-              A House My Brand projeta roupas para jovens, idosos e todos os
-              intermediários - mas a maioria importante, para a moda
+              Garantimos criar soluções, de formas a apresentar uma séri e
+              completa de serviços que ajudam as empresas iniciar as actividades
+              e melhrar o seu desempenho.
             </p>
             <ul className="site-footer__social-networks">
               <li>

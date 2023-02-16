@@ -11,7 +11,7 @@ const Subscribe = () => {
           </h4>
 
           <form className="subscribe__form">
-            <input type="email" placeholder="Email address" />
+            <input type="email" placeholder="Email" />
             <button type="submit" className="btn btn--rounded btn--yellow">
               Se inscrever
             </button>
