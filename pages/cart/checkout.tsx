@@ -21,19 +21,19 @@ const CheckoutPage = () => {
       <section className="cart">
         <div className="container">
           <div className="cart__intro">
-            <h3 className="cart__title">Shipping and Payment</h3>
+            <h3 className="cart__title">Pagamento</h3>
             <CheckoutStatus step="checkout" />
           </div>
 
           <div className="checkout-content">
             <div className="checkout__col-6">
               <div className="checkout__btns">
-                <button className="btn btn--rounded btn--yellow">Log in</button>
-                <button className="btn btn--rounded btn--border">Sign up</button>
+                <button className="btn btn--rounded btn--yellow">Iniciar sessão </button>
+                <button className="btn btn--rounded btn--border">Inscrever-se</button>
               </div>
 
               <div className="block">
-                <h3 className="block__title">Shipping information</h3>
+                <h3 className="block__title">Informação de Entrega</h3>
                 <form className="form">
                   <div className="form__input-row form__input-row--two">
                     <div className="form__col">
@@ -41,43 +41,34 @@ const CheckoutPage = () => {
                     </div>
 
                     <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="Address" />
+                      <input className="form__input form__input--sm" type="text" placeholder="Endereço" />
                     </div>
                   </div>
                   
                   <div className="form__input-row form__input-row--two">
                     <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="First name" />
+                      <input className="form__input form__input--sm" type="text" placeholder="Nome" />
                     </div>
 
                     <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="City" />
+                      <input className="form__input form__input--sm" type="text" placeholder="Cidade" />
                     </div>
                   </div>
                   
                   <div className="form__input-row form__input-row--two">
                     <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="Last name" />
+                      <input className="form__input form__input--sm" type="text" placeholder="Ultimo Nome" />
                     </div>
 
-                    <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="Postal code / ZIP" />
-                    </div>
+                   
                   </div>
 
                   <div className="form__input-row form__input-row--two">
                     <div className="form__col">
-                      <input className="form__input form__input--sm" type="text" placeholder="Phone number" />
+                      <input className="form__input form__input--sm" type="text" placeholder="Nº Telefone" />
                     </div>
 
-                    <div className="form__col">
-                      <div className="select-wrapper select-form">
-                        <select>
-                          <option>Country</option>
-                          <option value="Argentina">Argentina</option>
-                        </select>
-                      </div>
-                    </div>
+              
                   </div>
                 </form>
               </div>
@@ -85,70 +76,45 @@ const CheckoutPage = () => {
             
             <div className="checkout__col-4">
               <div className="block">
-                <h3 className="block__title">Payment method</h3>
+                <h3 className="block__title">Forma de pagamento</h3>
+                <h4>GISTECH</h4>
+                <h5>AO06 0000.0004.2323.2334.2</h5>
                 <ul className="round-options round-options--three">
+                  
                   <li className="round-item">
                     <img src="/images/logos/paypal.png" alt="Paypal" />
                   </li>
-                  <li className="round-item">
-                    <img src="/images/logos/visa.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/mastercard.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/maestro.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/discover.png" alt="Paypal" />
-                  </li>
-                  <li className="round-item">
-                    <img src="/images/logos/ideal-logo.svg" alt="Paypal" />
-                  </li>
+                  
                 </ul>
+      
               </div>
+
+              <div style={{color:"black"}}><h6><span style={{color:"red"}}>OBS:</span>Todo comprovativo dever ser enviado em uma das opções:</h6><br/> <h6>-comercial@gisetech.co.ao</h6> 
+              <br/>
               
-              <div className="block">
-                <h3 className="block__title">Delivery method</h3>
-                <ul className="round-options round-options--two">
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/inpost.svg" alt="Paypal" />
-                    <p>$20.00</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/dpd.svg" alt="Paypal" />
-                    <p>$12.00</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/dhl.svg" alt="Paypal" />
-                    <p>$15.00</p>
-                  </li>
-                  <li className="round-item round-item--bg">
-                    <img src="/images/logos/maestro.png" alt="Paypal" />
-                    <p>$10.00</p>
-                  </li>
-                </ul>
+              <h6>-whatsapp <br/>  948 833 276 <br/> 990 762 193</h6>
               </div>
+         
             </div>
             
             <div className="checkout__col-2">
               <div className="block">
-                <h3 className="block__title">Your cart</h3>
+                <h3 className="block__title">Teu Carrinho</h3>
                 <CheckoutItems />
                 
                 <div className="checkout-total">
                   <p>Total cost</p>
-                  <h3>${priceTotal}</h3>
+                  <h3>{parseFloat(priceTotal).toFixed(2)} kz</h3>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="cart-actions cart-actions--checkout">
-            <a href="/cart" className="cart__btn-back"><i className="icon-left"></i> Back</a>
+            <a href="/cart" className="cart__btn-back"><i className="icon-left"></i> Voltar</a>
             <div className="cart-actions__items-wrapper">
-              <button type="button" className="btn btn--rounded btn--border">Continue shopping</button>
-              <button type="button" className="btn btn--rounded btn--yellow">Proceed to payment</button>
+              <button type="button" className="btn btn--rounded btn--border">Loja</button>
+              <button type="button" className="btn btn--rounded btn--yellow">Confirmar</button>
             </div>
           </div>
         </div>

@@ -95,7 +95,7 @@ const Footer = () => {
 
       <div className="site-footer__bottom">
         <div className="container">
-          <p>DESIGN BY RAGY - © 2019. ALL RIGHTS RESERVED.</p>
+          <p>DESIGN BY RAGY - © 2023. TODOS DIREITOS RESERVADO.</p>
         </div>
       </div>
     </footer>
