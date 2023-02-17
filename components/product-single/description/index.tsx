@@ -11,13 +11,14 @@ const Description = ({ show }: ProductDescriptionType) => {
     <section style={style} className="product-single__description">
       <div className="product-description-block">
         <i className="icon-cart"></i>
-        <h4>Details and product description</h4>
-        <p>White Summer Vibes T-shirt in the uiKit line with a colorful print. <br></br>Made of jersey cotton. T-shirt fits perfectly with jeans, pants or shorts.</p>
+        <h4>Detalhes do Produto</h4>
+        <p>WLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in pretium erat. <br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in pretium erat. Aliquam</p>
       </div>
       <div className="product-description-block">
         <i className="icon-cart"></i>
-        <h4>Details and product description</h4>
-        <p>White Summer Vibes T-shirt in the uiKit line with a colorful print. <br></br>Made of jersey cotton. T-shirt fits perfectly with jeans, pants or shorts.</p>
+        <h4>Detalhes do Produto</h4>
+        <p>WLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in pretium erat. <br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in pretium erat. Aliquam</p>
+     
       </div>
     </section>
   );

@@ -55,14 +55,14 @@ const Content = ({ product }: ProductContent) => {
   return (
     <section className="product-content">
       <div className="product-content__intro">
-        <h5 className="product__id">Product ID:<br></br>{product.id}</h5>
-        <span className="product-on-sale">Sale</span>
+        <h5 className="product__id">ID:<br></br>{product.id}</h5>
+        <span className="product-on-sale">Venda</span>
         <h2 className="product__name">{product.name}</h2>
 
         <div className="product__prices">
-          <h4>${ product.currentPrice }</h4>
+          <h4>{ product.currentPrice } kz</h4>
           {product.discount &&
-            <span>${ product.price }</span>
+            <span>{ product.price } kz</span>
           }
         </div>
       </div>
@@ -84,11 +84,11 @@ const Content = ({ product }: ProductContent) => {
           </div>
         </div>
         <div className="product-filter-item">
-          <h5>Size: <strong>See size table</strong></h5>
+          <h5>Size: <strong>Ver Todos tamanho</strong></h5>
           <div className="checkbox-color-wrapper">
             <div className="select-wrapper">
               <select onChange={onSelectChange}>
-                <option>Choose size</option>
+                <option>Escolher Tamanho</option>
                 {productsSizes.map(type => (
                   <option value={type.label}>{type.label}</option>
                 ))}
@@ -109,7 +109,7 @@ const Content = ({ product }: ProductContent) => {
               </button>
             </div>
             
-            <button type="submit" onClick={() => addToCart()} className="btn btn--rounded btn--yellow">Add to cart</button>
+            <button type="submit" onClick={() => addToCart()} className="btn btn--rounded btn--yellow">Adicionar ao carrinho</button>
             <button type="button" onClick={toggleFav} className={`btn-heart ${isFavourite ? 'btn-heart--active' : ''}`}><i className="icon-heart"></i></button>
           </div>
         </div>

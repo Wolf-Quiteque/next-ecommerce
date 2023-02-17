@@ -16,9 +16,9 @@ export const productsTypes = [
   },
   {
     id: '4',
-    name: 'Periférico',
+    name: 'Periferico',
     count: '8',
   },
 ];
 
-export default productsTypes;
+export default productsTypes; 
