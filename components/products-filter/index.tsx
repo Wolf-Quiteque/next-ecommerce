@@ -47,8 +47,8 @@ const ProductsFilter = () => {
           </div>
         </div>
         
-        {/* <div className="products-filter__block">
-          <button type="button">Size</button>
+        <div className="products-filter__block">
+          <button type="button">Tamanho</button>
           <div className="products-filter__block__content checkbox-square-wrapper">
             {productsSizes.map(type => (
               <Checkbox 
@@ -58,7 +58,7 @@ const ProductsFilter = () => {
                 label={type.label} />
             ))}
           </div>
-        </div> */}
+        </div>
         
         <div className="products-filter__block">
           <button type="button">Cor</button>
