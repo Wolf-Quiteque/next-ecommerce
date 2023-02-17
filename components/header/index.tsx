@@ -3,6 +3,8 @@ import { useSelector } from "react-redux";
 import useOnClickOutside from "use-onclickoutside";
 import Logo from "../../assets/icons/logo";
 import Link from "next/link";
+import Head from "next/head";
+
 import { useRouter } from "next/router";
 import { RootState } from "store";
 
@@ -55,6 +57,11 @@ const Header = ({ isErrorPage }: HeaderType) => {
   useOnClickOutside(searchRef, closeSearch);
 
   return (
+    <>
+    <Head>
+
+      <title>Gisetech</title>
+    </Head>
     <header className={`site-header ${!onTop ? "site-header--fixed" : ""}`}>
       <div className="container">
         <Link href="/">
@@ -124,7 +131,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
           </button>
         </div>
       </div>
-    </header>
+    </header></>
   );
 };
 

@@ -23,7 +23,9 @@ if(isProduction) {
 }
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
+
   <Fragment>
+      
     <Component {...pageProps} />
   </Fragment>
 );
