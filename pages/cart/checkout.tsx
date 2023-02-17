@@ -104,7 +104,7 @@ const CheckoutPage = () => {
                 
                 <div className="checkout-total">
                   <p>Total cost</p>
-                  <h3>{parseFloat(priceTotal).toFixed(2)} kz</h3>
+                  <h3>{(Math.round(priceTotal * 100) / 100).toFixed(2)} kz</h3>
                 </div>
               </div>
             </div>
